@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DM+Sans:opsz@9..40&family=Inter&family=Montserrat&family=Noto+Serif&family=Nunito&family=Nunito+Sans:opsz@6..12&family=Open+Sans:wght@400;600;800&family=Poppins&family=Raleway&family=Red+Hat+Display:ital,wght@0,400;0,500;1,400&family=Roboto&family=Rubik&family=ZCOOL+XiaoWei&display=swap');
+
+header {
+    background: #2B3844;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 80px;
+    width: 100%;
+
+    h2 {
+        color: #FFF;
+        font-family: Nunito Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    p {
+        color: #FFF;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+body {
+    background: #202C36;
+    color: white;
+    font-family: Nunito Sans;
+}
+
+main {
+    background: #202C36;
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding: 50px 0 0 80px;
+    transition: 0.5s;
+
+    .searching {
+        width: 480px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #2B3844;
+        box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .searching input {
+        background: none;
+        color: #FFF;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        outline: none;
+        width: 100%;
+    }
+
+    img {
+        width: 264px;
+        height: 160px;
+        flex-shrink: 0;
+        border-radius: 5px;
+    }
+}
+
+.itemBox {
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    width: 264px;
+    height: 336px;
+}
+
+.boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.itemContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+}
+
+.itemBox {
+    transition: 0.5s;
+}

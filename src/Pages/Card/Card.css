@@ -1,0 +1,48 @@
+body {
+  color: white;
+}
+
+.boxx img {
+  width: 560px;
+  height: 401px;
+}
+
+.boxx {
+  display: flex;
+  align-items: start;
+  gap: 100px;
+}
+
+.content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    h2 {
+        margin-bottom: 15px;
+    }
+}
+
+button {
+    position: absolute;
+    top: 30px;
+    background: rgba(118, 104, 104, 0.13);
+    color: white;
+    border-radius: 5px;
+    font-family: Poppins;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.cardMain {
+    position: relative;
+    padding: 100px;
+}
+
+body {
+    transition: .3s ease-out;
+}
