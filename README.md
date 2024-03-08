@@ -7,3 +7,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # countries-api
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1e3498c-3072-4a86-bc23-6c010050e057/deploy-status)](https://app.netlify.com/sites/coutries-api-qobilov-odiljon/deploys)
